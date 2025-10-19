@@ -36,7 +36,7 @@ pipeline {
       steps {
         script {
           withCredentials([string(credentialsId: 'DOCKERID', variable: 'DOCKER_PASSWORD')]){
-            sh 'docker login -u smartgigsctf -p ${DOCKER_PASSWORD}'
+            sh 'docker login -u smartgigsctf@gmail.com -p ${DOCKER_PASSWORD}'
           }
             //normally
             //sh 'docker push smartgigsctf/node-app:""$Build_ID""'
