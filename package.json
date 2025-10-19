@@ -1,0 +1,23 @@
+{
+  "name": "deployment-nodeapp-aws-k8s-end-to-end",
+  "version": "1.0.0",
+  "description": "Deployment of Node App end to end on K8s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timothyolubiyi/deployment-nodeapp-aws-k8s-end-to-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Timothyolubiyi/deployment-nodeapp-aws-k8s-end-to-end/issues"
+  },
+  "homepage": "https://github.com/Timothyolubiyi/deployment-nodeapp-aws-k8s-end-to-end#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

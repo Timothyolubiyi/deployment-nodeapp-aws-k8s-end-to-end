@@ -1,6 +1,6 @@
-FROM node:14   ## base image-version
-WORKDIR /usr/src/app   ## create work directory
-COPY package*.json ./  ## copy all the json and drop it on the work-directory
+FROM node:14  
+WORKDIR /usr/src/app   
+COPY package*.json ./ 
 RUN npm install
 RUN npm install express
 COPY . .
