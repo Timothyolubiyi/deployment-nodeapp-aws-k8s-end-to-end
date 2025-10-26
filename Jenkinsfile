@@ -35,8 +35,8 @@ pipeline {
     stage('pushing Docker Image to DockerHub') {
       steps {
         script {
-          withCredentials([string(credentialsId: 'DOCKERID', variable: 'DOCKER_PASSWORD')]){
-            sh 'docker login -u smartgigsctf -p ${DOCKER_PASSWORD}'
+          withCredentials([string(credentialsId: 'DOCKERID2', variable: 'DOCKERID2')]){
+            sh 'docker login -u smartgigsctf -p ${DOCKERID2}'
           }
             //normally
             //sh 'docker push smartgigsctf/node-app:""$Build_ID""'
